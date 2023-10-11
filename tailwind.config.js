@@ -7,7 +7,7 @@ module.exports = {
     "./node_modules/flowbite/**/*.js",
     "./node_modules/flowbite-react/**/*.js",
   ],
-
+  prefix: "tw-",
   theme: {
     extend: {
       
