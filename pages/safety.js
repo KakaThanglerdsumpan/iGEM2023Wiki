@@ -61,6 +61,10 @@ export default function Safety() {
                     </ol>
 
             </div>
+            
+            <div  class="yBox60"/>
+
+
         </div>
    
   );

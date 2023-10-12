@@ -23,9 +23,9 @@ const MENU_LIST = [
     mainButton: "dropdownbtn", 
     rootButton: "displayNone", 
     rootHref: "", 
-    ddItem1: "", ddItem2: "", ddItem3: "", ddItem4: "", ddItem5: "", ddItem6: "", ddItem7: "", ddItem8: "",
-    ddHref1: "/description", ddHref2: "/design", ddHref3: "engineering", ddHref4: "/notebook", ddHref5: "/results", ddHref6: "/contribution", ddHref7: "/implementation", ddHref8: "/safety",
-    text1: "Description",  text2: "Design",   text3: "Engineering",   text4: "Notebook",   text5: "Results",   text6: "Contribution",  text7: "Proposed Implementation", text8: "Safety",
+    ddItem1: "", ddItem2: "", ddItem3: "", ddItem4: "", ddItem5: "", ddItem6: "", ddItem7: "displayNone", ddItem8: "displayNone",
+    ddHref1: "/description", ddHref2: "/contribution", ddHref3: "engineering", ddHref4: "/notebook", ddHref5: "/implementation", ddHref6: "/safety", ddHref7: "", ddHref8: "",
+    text1: "Description",  text2: "Contribution",   text3: "Engineering",   text4: "Notebook",   text5: "Proposed Implementation",   text6: "Safety",  text7: "", text8: "",
   },
 
   { 

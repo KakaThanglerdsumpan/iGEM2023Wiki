@@ -4,30 +4,79 @@ import Link from 'next/link'
 function HomePage() {
     return(
        <div>
-            <div class="slide-container">
+           <div class="slide-container">
             <section class="pls1">
-                <h1>Slide 1</h1>
+                <div class="masthead">
+                    <video
+                        autoplay
+                        loop
+                        muted
+                        playsinline
+                        class="video-background"
+                    >
+                        <source
+                            src="https://video.igem.org/download/streaming-playlists/hls/videos/4016ee61-6073-43e6-b29a-57b543f65205-1080-fragmented.mp4"
+                            type="video/mp4"
+                        />
+                        {/* <!-- Add other video sources as needed --> */}
+                    </video>
+                    <div class="text-container">
+                        <h1 class="text-white text-4xl sm:text-6xl">
+                            Thailand-RIS
+                        </h1>
+                        <h2 class="text-white text-3xl sm:text-4xl">
+                            Powering up Plant Defenses
+                        </h2>
+                        <h3 class="text-white text-lg sm:text-xl">
+                            Modifying glutamate-cysteine ligase localization to
+                            boost plant stress response rates through improved
+                            reactive oxygen species mitigation.
+                        </h3>
+                    </div>
+                </div>
             </section>
             <section class="pls2">
-                <h1>Iframe here ig</h1>
+                <div class="video-container">
+                    <iframe
+                        title="Thailand-RIS: Thailand RIS: Powering up Plant Defenses (2023) - Project Promotion [English]"
+                        src="https://video.igem.org/videos/embed/1f7cc087-7d9d-4442-aad9-f2ddad466c73"
+                        frameborder="0"
+                        allowfullscreen=""
+                        sandbox="allow-same-origin allow-scripts allow-popups"
+                        class="video-iframe"
+                    ></iframe>
+                </div>
             </section>
             <section class="pls3">
                 <div class="grid-container">
-                    <div class="grid-item"></div>
                     <div class="grid-item">
-                        <h1 class="title">INCREASE</h1>
-                        <h1 class="subtitle">
+                        <img
+                            src="https://static.igem.wiki/teams/4629/wiki/stressresponse.png"
+                            alt="Image description"
+                            class="responsive-image"
+                        />
+                    </div>
+                    <div class="grid-item">
+                        <h1 class="titl">INCREASE</h1>
+                        <h1 class="subtitl">
                             plant stress response capabilities.
                         </h1>
                     </div>
                     <div class="grid-item">
                         <h1 class="percentage">35%</h1>
-                        <h1 class="subtitle">
+                        <h1 class="subtitl">
                             of farmers in Chantaburi cited droughts as the most
                             pressing issue towards their crop yields.
                         </h1>
                     </div>
-                    <div class="grid-item"></div>
+                    <div class="grid-item">
+                        <img
+                            src="https://static.igem.wiki/teams/4629/wiki/farmers.png
+"
+                            alt="Image description"
+                            class="responsive-image"
+                        />
+                    </div>
                 </div>
             </section>
             <section class="pls4">

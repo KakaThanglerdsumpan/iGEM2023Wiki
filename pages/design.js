@@ -15,7 +15,6 @@ export default function DesignPage() {
   return (
     <div>
         <img class="wideTitleScreen" style={{width: "100%", marginBottom: "-4px"}} src={wideTitleScreenUrl}/>
-        {/* <img class="narrowTitleScreen" style={{width: "100%", marginBottom: "-4px"}} src={narrowTitleScreenUrl}/> */}
         <div class="row">
             <div class="contentsBar">
                 <div style={{position: "sticky", top:"200px"}}class="column">
@@ -38,6 +37,8 @@ export default function DesignPage() {
                 
             </div>
             <div style={{paddingTop:"60px"}}class="text">
+    
+
 
                 <h1 id="header1">Synthesizing the Mitochondrial GCL</h1>
                 <p>The synthesis of the mitochondrial <i>Durio zibethinus</i> Glutamate-Cysteine Ligase (mDzGCL) protein used in this project was done through replacing the chloroplast transit peptide found in <i>Durio zibethinus</i> Glutamate-Cysteine Ligase (DzGCL) with a mitochondrial transit peptide found in <i>Arabidopsis thaliana</i> succinate dehydrogenase (SDH).</p>

@@ -1,4 +1,5 @@
 import {useRef} from 'react';
+import Link from "next/link";
 
 export default function HPPage() {
 
@@ -56,7 +57,7 @@ export default function HPPage() {
                             </p>
                                 <b/>
                             <p>
-                                &nbsp;&nbsp;&nbsp;&nbsp;All these projects were based on data collected using the sample population of 222 people who filled out the general survey T-RIS sent out.
+                                &nbsp;&nbsp;&nbsp;&nbsp;All these projects were based on data collected using the sample population of 222 people who filled out the general <Link style={{color:"#145C69"}} href="https://docs.google.com/forms/d/e/1FAIpQLSeRaCpV3adxiOUAaz-T-7JKugZU17hRNbx9nUJJ24QEghAsaQ/viewform">survey</Link> T-RIS sent out.
                             </p>
                 <h1 id="header2">Chanthaburi Community Outreach</h1>
                             <p>
@@ -90,7 +91,7 @@ export default function HPPage() {
                             <p>
                                 &nbsp;&nbsp;&nbsp;&nbsp;The survey results helped us plan our next step: targeted interviews with local stakeholders, both farmers and distributors. From the survey, we learned that the majority of the community believed that organically grown crops are safer than those that were chemically altered (via spray and/or injection) or genetically modified; however, through conversations, we also learned that it is near impossible to keep fruits such as durian stable through organic planting. We, therefore, constructed the interview questions in such a way as to better understand the current misconceptions and perceptions of GM foods within the communities we visited, and to see how well-received our project might be by our interviewees in terms of economic and health benefits. 
                             </p>
-                        <img class="figure"src="https://static.igem.wiki/teams/4629/wiki/human-practices/chanthaburi/05-ch.jpg"/>
+                        <img class="figure"src="https://static.igem.wiki/teams/4629/wiki/human-practices/chanthaburi/05-ch.jpg"/>54
                             <h5>
                                     <i>Members of Team Thailand-RIS&apos; interviewing a durian farmer.</i>
                             </h5>
@@ -173,9 +174,9 @@ export default function HPPage() {
                                 <br/>
                             <p>
                                 &nbsp;&nbsp;&nbsp;&nbsp;Returning to our POPs, the workshop was a great opportunity for middle schoolers to practice 
-                                    <i>heads</i> as they became better critical thinkers and were open-minded towards new perspectives on GMOs and its innovative uses in Thailand. 
-                                    <i>hands</i> as they collaborated with one another through the Quizlet platform
-                                    <i>hearts</i> as they evaluated GMOs and their health benefits while also becoming more considerate towards farmers and their views of local and global GMO impacts.
+                                    <i> heads</i> as they became better critical thinkers and were open-minded towards new perspectives on GMOs and its innovative uses in Thailand. 
+                                    <i> Hands</i> as they collaborated with one another through the Quizlet platform, and
+                                    <i> hearts</i> as they evaluated GMOs and their health benefits while also becoming more considerate towards farmers and their views of local and global GMO impacts.
                             </p>
                         <img class="figure"src="https://static.igem.wiki/teams/4629/wiki/human-practices/ms-workshop/05-ms.jpg"/>
                             <p>

@@ -51,13 +51,13 @@ export default function Description() {
             <h2>References</h2>
                 <ol class="references">
                     <li>
-                        Thailand - agriculture. International Trade Administration | Trade.gov. July 25, 2022. Accessed Septeber 3, 2023. https://www.trade.gov/country-commercial-guides/thailand-agriculture#:~:text=Agriculture%20accounts%20for%20only%20six,canned%20tuna%2C%20and%20canned%20pineapple.
+                        Thailand - agriculture. International Trade Administration | Trade.gov. July 25, 2022. Accessed September 3, 2023. https://www.trade.gov/country-commercial-guides/thailand-agriculture#:~:text=Agriculture%20accounts%20for%20only%20six,canned%20tuna%2C%20and%20canned%20pineapple.
                     </li>
                     <li>
                         Country Profile - Thailand. Food and Agriculture Organization of the United Nations. 2011. Accessed September 7, 2023. https://www.fao.org/3/ca0408en/CA0408EN.pdf.
                     </li>
                     <li>
-                        Huang C, Yin Z. Highly efficient synthesis of glutathione via a genetic engineering enzymatic method coupled with yeast ATP generation. Catalysts. 2019;10(1):33. doi:10.3390/catal10010033
+                        Huang C, Yin Z. Highly efficient synthesis of glutathione via a genetic engineering enzymatic method coupled with yeast ATP generation. <i>Catalysts</i>. 2019;10(1):33. doi:10.3390/catal10010033
                     </li>
                     <li>
                         Noctor G, Queval G, Mhamdi A, Chaouch S, Foyer CH. Glutathione. Arabidopsis Book. 2011;9:e0142. doi:10.1199/tab.0142.
