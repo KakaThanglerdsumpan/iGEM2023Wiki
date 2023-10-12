@@ -121,7 +121,7 @@ const Bgimage = () => {
   );
 };
 
-function Home() {
+function Hoeme() {
   return (
     <div className="min-h-screen">
       <MastHead />
@@ -132,7 +132,7 @@ function Home() {
   );
 }
 
-export default function plshelp() {
+export default function Home() {
   return (
     <div className="stuff">
       <div class="min-h-screen">
