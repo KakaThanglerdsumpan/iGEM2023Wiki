@@ -1,6 +1,6 @@
 import "../styles/globals.css";
 import Navbar from "../components/Navbar";
-import Bottombar from "../components/Bottombar";
+import Footer from "../components/Footer";
 import type { AppProps } from "next/app";
 import React from "react";
 import Head from "next/head";
@@ -12,7 +12,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
         <title>Thailand-RIS - iGEM 2023</title>
         <meta
           name="description"
-          content="Designed by Miu. Programmed by Dhirath (Kaka) Thanglerdsumpan, Thamogyna Kodi, Settachai (Jacky) Lertwasana, Maera Singh,"
+          content="Designed by Miu. Programmed by Thamognya Kodi, Dhirath (Kaka) Thanglerdsumpan, Settachai (Jacky) Lertwasana, Maera Singh,"
         />
         <link
           rel="icon"
@@ -21,7 +21,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
       </Head>
       <Navbar />
       <Component {...pageProps} />
-      <Bottombar />
+      <Footer />
     </>
   );
 }
