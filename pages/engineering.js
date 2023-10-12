@@ -330,7 +330,7 @@ function Engineering() {
                         <p> 
                             &nbsp;&nbsp;&nbsp;&nbsp;As the modification of <i>S. lycopersicum</i> with <i>mDzGCL</i> was a subproject and results were unclear, hence it was not pursued further. The ripeness of the <i>S. lycopersicum</i> fruit requires another level of complexity that is difficult to analyze with the currently available resources and time of the team. Additionally, fruits may not be a good model to study environmental stresses: fruits have shorter life spans, go through separate physiological processes in comparison to the plant itself, and have nutrient reserves which affect stress responses. As the main focus of this project was studying a period of time sufficient enough to create implications for long term effects on plant stress responses, <i>S. lycopersicum</i> would not constitute compelling evidence for this project. 
                         </p>
-                        <img class="figureTooBi"src="https://static.igem.wiki/teams/4629/wiki/wet-lab/results/wlresults12.jpg"/>
+                        <img class="figureTooBig"src="https://static.igem.wiki/teams/4629/wiki/wet-lab/results/wlresults12.jpg"/>
                         <h5>
                             <i>N. benthamiana</i> and <i>S. lycopersicum</i> kept in their respective trays saved for agroinfiltration. 
                         </h5>

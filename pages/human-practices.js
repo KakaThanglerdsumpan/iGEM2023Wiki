@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function HPPage() {
 
-    const wideTitleScreenUrl = "https://static.igem.wiki/teams/4629/wiki/titlescreens/medal.png";
+    const wideTitleScreenUrl = "https://static.igem.wiki/teams/4629/wiki/titlescreens/humanpractices.png";
     const narrowTitleScreenUrl = "https://static.igem.wiki/teams/4629/wiki/titlescreens/titlescreensphone/humanpracticesphone.png";
     const handleClick = (elID) => {
     const element = document.getElementById(elID)
@@ -57,7 +57,7 @@ export default function HPPage() {
                             </p>
                                 <b/>
                             <p>
-                                &nbsp;&nbsp;&nbsp;&nbsp;All these projects were based on data collected using the sample population of 222 people who filled out the general <Link style={{color:"#145C69"}} href="https://docs.google.com/forms/d/e/1FAIpQLSeRaCpV3adxiOUAaz-T-7JKugZU17hRNbx9nUJJ24QEghAsaQ/viewform" target="_blank"><b><u>survey</u></b></Link> T-RIS sent out.
+                                &nbsp;&nbsp;&nbsp;&nbsp;All these projects were based on data collected using the sample population of 222 people who filled out the general <Link style={{color:"#145C69"}} href="https://docs.google.com/forms/d/e/1FAIpQLScaz5hXCo7KgKJns5xdmXTQy2BzQZoXM_fnWwGMweU3l7wQ_A/viewform">survey</Link> T-RIS sent out.
                             </p>
                 <h1 id="header2">Chanthaburi Community Outreach</h1>
                             <p>
@@ -73,7 +73,7 @@ export default function HPPage() {
                             </h5>
                             <div class="row">
                                 <p>
-                                    &nbsp;&nbsp;&nbsp;&nbsp;The human practices team made two trips to Chanthaburi: the first was to conduct interviews with stakeholders and the second was to present our project and the potential benefits of genetic modification to local durian farmers and business leaders as well as political leaders. These trips were conducted according to data collected from this <Link style={{color:"#145C69"}} href="https://docs.google.com/forms/d/e/1FAIpQLScaz5hXCo7KgKJns5xdmXTQy2BzQZoXM_fnWwGMweU3l7wQ_A/viewform?usp=sharing"><b><u>survey</u></b></Link>, which was sent across Thailand&apos;s agricultural provinces. We were able to do this with the help of the Mahachok Fruits, which is owned by Mr. Phatthanaphon Lertwatsana. Mahachok Fruits is a business that engages with the agricultural industry, and acts as an international distribution center for fruits. Using their connections within the community, the Human Practices team was able to more efficiently send this survey to a wider audience.
+                                    &nbsp;&nbsp;&nbsp;&nbsp;The human practices team made two trips to Chanthaburi: the first was to conduct interviews with stakeholders and the second was to present our project and the potential benefits of genetic modification to local durian farmers and business leaders as well as political leaders. These trips were conducted according to data collected from this <Link style={{color:"#145C69"}} href="https://docs.google.com/forms/d/e/1FAIpQLScaz5hXCo7KgKJns5xdmXTQy2BzQZoXM_fnWwGMweU3l7wQ_A/viewform?usp=sharing">survey</Link>, which was sent across Thailand&apos;s agricultural provinces. We were able to do this with the help of the Mahachok Fruits, which is owned by Mr. Phatthanaphon Lertwatsana. Mahachok Fruits is a business that engages with the agricultural industry, and acts as an international distribution center for fruits. Using their connections within the community, the Human Practices team was able to more efficiently send this <Link style={{color:"#145C69"}} href="https://docs.google.com/forms/d/e/1FAIpQLScaz5hXCo7KgKJns5xdmXTQy2BzQZoXM_fnWwGMweU3l7wQ_A/viewform">survey</Link> to a wider audience.
                                 </p>
                                 <div class="column">
                                 <img src="https://static.igem.wiki/teams/4629/wiki/human-practices/chanthaburi/03-ch.png" style={{width: "200px", height: "370px", marginLeft:"15px"}}/>
@@ -91,7 +91,7 @@ export default function HPPage() {
                             <p>
                                 &nbsp;&nbsp;&nbsp;&nbsp;The survey results helped us plan our next step: targeted interviews with local stakeholders, both farmers and distributors. From the survey, we learned that the majority of the community believed that organically grown crops are safer than those that were chemically altered (via spray and/or injection) or genetically modified; however, through conversations, we also learned that it is near impossible to keep fruits such as durian stable through organic planting. We, therefore, constructed the interview questions in such a way as to better understand the current misconceptions and perceptions of GM foods within the communities we visited, and to see how well-received our project might be by our interviewees in terms of economic and health benefits. 
                             </p>
-                        <img class="figure"src="https://static.igem.wiki/teams/4629/wiki/human-practices/chanthaburi/05-ch.jpg"/>
+                        <img class="figure"src="https://static.igem.wiki/teams/4629/wiki/human-practices/chanthaburi/05-ch.jpg"/>54
                             <h5>
                                     <i>Members of Team Thailand-RIS&apos; interviewing a durian farmer.</i>
                             </h5>
