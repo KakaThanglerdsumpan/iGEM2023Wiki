@@ -3,6 +3,7 @@ import Image from "next/image";
 import React from "react";
 
 import "../styles/index.module.css";
+import "tailwind/tailwind.css";
 
 function MastHead() {
   return (
