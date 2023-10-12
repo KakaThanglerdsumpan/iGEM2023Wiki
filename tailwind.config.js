@@ -1,6 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./pages/index.jsx"],
+  content: [
+    // "./app/**/*.{jsx,tsx,mdx}",
+    // "./pages/**/*.{jsx,tsx,mdx}",
+    // "./src/**/*.{jsx,tsx,mdx}",
+    "./pages/index.jsx",
+  ],
   theme: {
     extend: {
       listStyleImage: {
