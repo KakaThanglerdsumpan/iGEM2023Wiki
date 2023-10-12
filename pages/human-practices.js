@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function HPPage() {
 
-    const wideTitleScreenUrl = "https://static.igem.wiki/teams/4629/wiki/titlescreens/medal.png";
+    const wideTitleScreenUrl = "https://static.igem.wiki/teams/4629/wiki/titlescreens/humanpractices.png";
     const narrowTitleScreenUrl = "https://static.igem.wiki/teams/4629/wiki/titlescreens/titlescreensphone/humanpracticesphone.png";
     const handleClick = (elID) => {
     const element = document.getElementById(elID)
