@@ -144,8 +144,7 @@ function HomePage() {
           src="https://static.igem.wiki/teams/4629/wiki/promobackground.png"
           class="stackedchild bggradient" 
         />
-       
-        <iframe title="Thailand-RIS: TRIS Title animation (2023) [English]"      class="video promovid" src="https://video.igem.org/videos/embed/4016ee61-6073-43e6-b29a-57b543f65205" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups"></iframe>
+       <iframe title="Thailand-RIS: Thailand RIS: Powering up Plant Defenses (2023) - Project Promotion [English]"   class="video promovid" src="https://video.igem.org/videos/embed/1f7cc087-7d9d-4442-aad9-f2ddad466c73" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups"></iframe>
       </div>
         
        </div>
