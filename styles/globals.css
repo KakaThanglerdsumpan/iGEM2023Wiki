@@ -1,7 +1,3 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 @font-face {
   font-family: "LGC light";
   src: url("../assets/louis-george-cafe-light.ttf");
@@ -1420,5 +1416,68 @@ h3 {
 @media screen and(max-width: 760px) {
   .pdf {
     width: 5%;
+  }
+}
+
+.mb-0 {
+  margin-bottom: 0px;
+}
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+.flex {
+  display: flex;
+}
+.h-16 {
+  height: 4rem;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.justify-center {
+  justify-content: center;
+}
+.space-x-6 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(1.5rem * var(--tw-space-x-reverse));
+  margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
+}
+.bg-what {
+  --tw-bg-opacity: 1;
+  background-color: rgb(240 123 62 / var(--tw-bg-opacity));
+}
+.p-6 {
+  padding: 1.5rem;
+}
+.text-center {
+  text-align: center;
+}
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+.underline {
+  text-decoration-line: underline;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+p {
+  word-spacing: 2px;
+  line-height: 28px;
+  color: grey;
+}
+@media (min-width: 640px) {
+  .sm\:h-32 {
+    height: 8rem;
+  }
+  .sm\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
 }

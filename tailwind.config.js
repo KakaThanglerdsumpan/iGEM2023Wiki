@@ -4,7 +4,7 @@ module.exports = {
     // "./app/**/*.{jsx,tsx,mdx}",
     // "./pages/**/*.{jsx,tsx,mdx}",
     // "./src/**/*.{jsx,tsx,mdx}",
-    "./pages/index.jsx",
+    // "./pages/index.jsx",
     "./components/Bottombar.jsx",
   ],
   theme: {
