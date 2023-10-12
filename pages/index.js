@@ -9,23 +9,22 @@
 //         element.scrollIntoView({behavior: 'smooth'});
 //     }
 //   };
-// //   
+// //
 
 //   return (
 //     <div>
 //         <img class="wideTitleScreen" style={{width: "100%", marginBottom: "-4px"}} src={wideTitleScreenUrl}/>
-                
 
 //             <div style={{paddingTop:"60px", margin: "auto"}}class="text">
 //                     <p>
 //                         &nbsp;&nbsp;&nbsp;&nbsp;This project has a biosafety level of 2. To manage the amount of risk in this project, a strict set of rules were followed and written procedures were planned and approved by the Chulalongkorn lab advisors to ensure proper biosafety. Proper training on decontamination, biological waste management, personal protective equipment, safe handling of biological spills, and the transportation of biological materials were received from the Chulalongkorn lab advisors. This allowed the team to upload lab rules to a high standard. Additionally, the team was provided with the proper personal protective equipment, biosafety supplies, and training for this project. <sup>[1-7]</sup>
 //                     </p>
 //                     <p>
-//                         &nbsp;&nbsp;&nbsp;&nbsp;For example, when working with <i>A. tumefaciens</i>, a biosafety cabinet was used to prevent the potential effects of inhalation or skin contact. When agroinfiltrating <i>N. benthamiana</i>, safety glasses and lab coats were used to prevent the <i>A. tumefaciens</i> from entering the eyes. 
+//                         &nbsp;&nbsp;&nbsp;&nbsp;For example, when working with <i>A. tumefaciens</i>, a biosafety cabinet was used to prevent the potential effects of inhalation or skin contact. When agroinfiltrating <i>N. benthamiana</i>, safety glasses and lab coats were used to prevent the <i>A. tumefaciens</i> from entering the eyes.
 //                     </p>
 //                     <br></br>
 //                     <p>
-//                         &nbsp;&nbsp;&nbsp;&nbsp;Thailand-RIS team members did not take any substances outside of the lab and did not bring any inside (i.e. food). The lab used is one that is used by many other Chulalongkorn biologists who, alongside the Thailand-RIS team, adhere to strict regulations<sup>[1-7]</sup> to remain safe for biosafety level 2 experiments. Materials were autoclaved as needed in order to avoid contamination and spread. Gloves and other equipment were properly disposed of into a designated trash bin for biological waste. 
+//                         &nbsp;&nbsp;&nbsp;&nbsp;Thailand-RIS team members did not take any substances outside of the lab and did not bring any inside (i.e. food). The lab used is one that is used by many other Chulalongkorn biologists who, alongside the Thailand-RIS team, adhere to strict regulations<sup>[1-7]</sup> to remain safe for biosafety level 2 experiments. Materials were autoclaved as needed in order to avoid contamination and spread. Gloves and other equipment were properly disposed of into a designated trash bin for biological waste.
 //                     </p>
 //                     <img class="figure"src="https://static.igem.wiki/teams/4629/wiki/wet-lab/safety/wlsafety1.jpg"/>
 //                     <img class="figure"src="https://static.igem.wiki/teams/4629/wiki/wet-lab/safety/wlsafety2.jpg"/>
@@ -59,12 +58,11 @@
 //                     </ol>
 
 //             </div>
-            
+
 //             <div  class="yBox60"/>
 
-
 //         </div>
-   
+
 //   );
 // }
 
@@ -113,41 +111,46 @@
 //     );
 // }
 
-import {useRef} from 'react';
-import Link from 'next/link'
-import Image from 'next/image';
+import { useRef } from "react";
+import Link from "next/link";
+import Image from "next/image";
 
 function HomePage() {
-    return(
-       <div>
-            <section class="pls1">
-                <div class="masthead">
-                    <div class="text-container">
-                        <h1 class="homeTitle">
-                            THAILAND-RIS
-                        </h1>
-                        <h2 class="projectTitle">
-                            Powering Up Plant Defenses
-                        </h2>
-                        
-                        <h3 style={{maxWidth:`650px`, textAlign: `center`}} class="text-white text-lg">
-                            Modification of glutamate-cysteine ligase subcellular localization to
-                            enhance plant stress response rates through improved
-                            reactive oxygen species mitigation.
-                        </h3>
-                    </div>
-                </div>
-            </section>
-        
-        <div class="stack">
+  return (
+    <div>
+      <section class="pls1">
+        <div class="masthead">
+          <div class="text-container">
+            <h1 class="homeTitle">THAILAND-RIS</h1>
+            <h2 class="projectTitle">Powering Up Plant Defenses</h2>
+
+            <h3
+              style={{ maxWidth: `650px`, textAlign: `center` }}
+              class="text-white text-lg"
+            >
+              Modification of glutamate-cysteine ligase subcellular localization
+              to enhance plant stress response rates through improved reactive
+              oxygen species mitigation.
+            </h3>
+          </div>
+        </div>
+      </section>
+
+      <div class="stack">
         <img
           src="https://static.igem.wiki/teams/4629/wiki/promobackground.png"
-          class="stackedchild bggradient" 
+          class="stackedchild bggradient"
         />
-       <iframe title="Thailand-RIS: Thailand RIS: Powering up Plant Defenses (2023) - Project Promotion [English]"   class="video promovid" src="https://video.igem.org/videos/embed/1f7cc087-7d9d-4442-aad9-f2ddad466c73" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups"></iframe>
+        <iframe
+          title="Thailand-RIS: Thailand RIS: Powering up Plant Defenses (2023) - Project Promotion [English]"
+          class="video promovid"
+          src="https://video.igem.org/videos/embed/1f7cc087-7d9d-4442-aad9-f2ddad466c73"
+          frameborder="0"
+          allowfullscreen=""
+          sandbox="allow-same-origin allow-scripts allow-popups"
+        ></iframe>
       </div>
-        
-       </div>
-    );
+    </div>
+  );
 }
 export default HomePage;
