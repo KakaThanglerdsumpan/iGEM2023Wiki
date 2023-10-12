@@ -3,12 +3,12 @@ image: node:18
 pages:
   stage: build
   script:
-    - npm ci
-    - npm run build
-    - rm -rf public
-    - mv out public
+  - npm ci
+  - npm run build
+  - rm -rf public
+  - mv out public
   artifacts:
     paths:
-      - public
+    - public
   only:
-    - main
+  - main
