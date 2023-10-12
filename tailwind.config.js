@@ -33,6 +33,9 @@ module.exports = {
         accordion3: "#967898",
         accordion4: "#A992AD",
         darkWhite: "#FCF5D4",
+
+        what: "#F07B3E",
+        whatt: "#52CBBE",
       },
     },
   },
