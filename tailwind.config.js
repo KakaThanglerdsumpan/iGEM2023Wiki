@@ -5,6 +5,7 @@ module.exports = {
     // "./pages/**/*.{jsx,tsx,mdx}",
     // "./src/**/*.{jsx,tsx,mdx}",
     "./pages/index.jsx",
+    "./components/Bottombar.jsx",
   ],
   theme: {
     extend: {
