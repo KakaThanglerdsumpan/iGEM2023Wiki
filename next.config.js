@@ -2,8 +2,9 @@
 const nextConfig = {
   reactStrictMode: true,
   images: { unoptimized: true },
-  output: "export",
+    output: "export",
   basePath: "/thailand-ris",
-};
 
-module.exports = nextConfig;
+}
+
+module.exports = nextConfig
