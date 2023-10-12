@@ -662,8 +662,36 @@ section {
   height: 563px;
   width: 1000px;
 }
-@media screen and (max-width: 800px) {
-  
+.projectTitle{
+  color:white;
+}
+.homeTitle{
+  color:white
+}
+@media screen and (min-width: 800px) {
+  .homeTitle{
+    font-size: 5vw;
+  }
+}
+@media screen and (max-width: 799px) {
+  .homeTitle{
+    font-size: 10vw;
+  }
+}
+@media screen and (max-width: 1099px) {
+  .video {
+    height: 282px;
+    width: 500px;
+  }
+}
+@media screen and (max-width: 599px) {
+  .video {
+    height: 350px;
+    width: 350px;
+  }
+  .bggradient{
+    height: 400px;
+  }
 }
 .pls1 {
   background-image: url("https://static.igem.wiki/teams/4629/wiki/igemhomepagefinal.jpg");

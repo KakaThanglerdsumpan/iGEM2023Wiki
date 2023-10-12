@@ -123,16 +123,16 @@ function HomePage() {
             <section class="pls1">
                 <div class="masthead">
                     <div class="text-container">
-                        <h1 class="text-white text-4xl">
+                        <h1 class="homeTitle">
                             THAILAND-RIS
                         </h1>
-                        <h2 class="text-white text-3xl">
-                            Powering up Plant Defenses
+                        <h2 class="projectTitle">
+                            Powering Up Plant Defenses
                         </h2>
                         
                         <h3 style={{maxWidth:`650px`, textAlign: `center`}} class="text-white text-lg">
-                            Modifying glutamate-cysteine ligase localization to
-                            boost plant stress response rates through improved
+                            Modification of glutamate-cysteine ligase subcellular localization to
+                            enhance plant stress response rates through improved
                             reactive oxygen species mitigation.
                         </h3>
                     </div>

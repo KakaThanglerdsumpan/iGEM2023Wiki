@@ -13,7 +13,11 @@ export default function MyApp({ Component, pageProps }: AppProps) {
     <>
       <Head>
         <title>Thailand-RIS - iGEM 2023</title>
-        <meta name="description" content="Designed by Miu. Programmed by Dhirath (Kaka) Thanglerdsumpan, Thamogyna Kodi, Settachai (Jacky) Lertwasana, Maera Singh," />
+        <meta name="description" 
+        content="
+        Powering Up Plant Defense: Modification of glutamate-cysteine ligase subcellular localization to
+        enhance plant stress response rates through improved
+        reactive oxygen species mitigation." />
         <link rel="icon" href="https://static.igem.wiki/teams/4629/wiki/favicon6.png" />
       </Head>
       <Navbar />
