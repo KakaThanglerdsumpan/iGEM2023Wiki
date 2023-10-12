@@ -75,11 +75,13 @@ export default function MedalPage() {
                 </div>
                 <div class="medalBox">
                     <h1 id="header3"><center>Silver Medal Deliverables</center></h1>
+                    <p>
+                    
+                    </p>
 
                 </div>
                 <div class="medalBox">
                     <h1 id="header3"><center>Gold Medal Deliverables</center></h1>
-
                 </div>
 
 
