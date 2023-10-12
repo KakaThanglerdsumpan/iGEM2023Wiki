@@ -1,43 +1,67 @@
 import Link from "next/link";
 
-const NavItem = (
-  {text, externalRoot, dd, mainButton, rootButton,rootHref, 
-  ddItem1, ddItem2, ddItem3, ddItem4, ddItem5, ddItem6, ddItem7, ddItem8,
-  ddHref1, ddHref2, ddHref3, ddHref4, ddHref5, ddHref6, ddHref7, ddHref8,
-  text1, text2, text3, text4, text5, text6, text7, text8 
+const NavItem = ({
+  text,
+  externalRoot,
+  dd,
+  mainButton,
+  rootButton,
+  rootHref,
+  ddItem1,
+  ddItem2,
+  ddItem3,
+  ddItem4,
+  ddItem5,
+  ddItem6,
+  ddItem7,
+  ddItem8,
+  ddHref1,
+  ddHref2,
+  ddHref3,
+  ddHref4,
+  ddHref5,
+  ddHref6,
+  ddHref7,
+  ddHref8,
+  text1,
+  text2,
+  text3,
+  text4,
+  text5,
+  text6,
+  text7,
+  text8,
 }) => {
-  const defaultContent =
-    "";
+  const defaultContent = "";
 
   return (
-    
     <div>
       <div class="dropdown">
-        
         <div class={mainButton}>
           <button class="nav__link dropbtn">{text}</button>
         </div>
 
         <div class={rootButton}>
           <Link href={rootHref}>
-            <p class = "nav__link">{text}</p>
+            <p class="nav__link">{text}</p>
           </Link>
         </div>
 
         <div class={externalRoot}>
           <button class="nav__link dropbtn">
-            <Link class="nav__link dropbtn" href={rootHref}>{text}</Link>
+            <Link class="nav__link dropbtn" href={rootHref}>
+              {text}
+            </Link>
           </button>
         </div>
-          {/* ------------------------dropdown items---------------------- */}
+        {/* ------------------------dropdown items---------------------- */}
         <div class={dd}>
-
           <div class={ddItem1}>
             <Link href={ddHref1}>
               <p class="ddItem">{text1}</p>
             </Link>
           </div>
-          
+
           <div class={ddItem2}>
             <Link href={ddHref2}>
               <p class="ddItem">{text2}</p>
@@ -79,13 +103,9 @@ const NavItem = (
               <p class="ddItem">{text8}</p>
             </Link>
           </div>
-
         </div>
       </div>
     </div>
-  
-  
-  
   );
 };
 

@@ -1,8 +1,5 @@
 const Bottombar = () => {
-  return (
-    <div class="footer">
-    </div>
-  );
+  return <div class="footer"></div>;
 };
 
 export default Bottombar;
