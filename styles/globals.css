@@ -637,9 +637,31 @@ section {
 }
 
 
-
-
-
+.stack {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.stackedchild {
+  grid-column: 1;
+  grid-row: 1;
+}
+.bgblob {
+  width: 75vw;
+}
+.promovid {
+  grid-column: 1;
+  grid-row: 1;
+  margin: auto;
+  border-radius: 2vw;
+}
+.bggradient{
+  width: 100vw;
+}
+.video {
+  height: 563px;
+  width: 1000px;
+}
 .pls1 {
   background-image: url("https://static.igem.wiki/teams/4629/wiki/igemhomepagefinal.jpg");
   background-repeat: no-repeat;
