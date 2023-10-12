@@ -29,11 +29,11 @@ export default function Contribution() {
                     </p>
                     <br></br>
                     <p>
-                        Our team has listed the gene <i>DzGCL</i> in the parts registry as <Link style={{color:`#145C69`}} href={`https://parts.igem.org/Part:BBa_K4629000`}><u>part BBa_K4629000</u></Link>.
+                        Our team has listed the gene <i>DzGCL</i> in the parts registry as <Link style={{color:`#145C69`}} href={`https://parts.igem.org/Part:BBa_K4629000`} target="_blank"> <b><u>part BBa_K4629000</u></b></Link>.
                     </p>
                     <br></br>
                     <p>
-                        Additionally, our team also modified <i>DzGCL</i> by removing the chloroplast transit peptide and replacing it with a mitochondrial transit peptide to form the gene <i>mDzGCL</i>. It is listed as <Link style={{color:`#145C69`}}href={`https://parts.igem.org/Part:BBa_K4629001`}><u>part BBa_K4629001</u></Link>. Additional information regarding the design of <i>mDzGCL</i> can be found in the <Link style={{color: `#145C69`}}href={`/engineering`}><u>Engineering section</u></Link>.
+                        Additionally, our team also modified <i>DzGCL</i> by removing the chloroplast transit peptide and replacing it with a mitochondrial transit peptide to form the gene <i>mDzGCL</i>. It is listed as <Link style={{color:`#145C69`}}href={`https://parts.igem.org/Part:BBa_K4629001`}target="_blank" ><b><u>part BBa_K4629001</u></b></Link>. Additional information regarding the design of <i>mDzGCL</i> can be found in the <Link style={{color: `#145C69`}}href={`/engineering`}target="_blank" ><b><u>Engineering section</u></b></Link>.
                     </p>
                 <div  class="yBox100"/>
 

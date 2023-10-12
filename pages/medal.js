@@ -52,25 +52,25 @@ export default function MedalPage() {
                     Click on a deliverable for more details:
                     </p>
                     <p>
-                    1. <Link style={{color:"#145C69"}} href="https://2023.igem.wiki/thailand-ris"><u>Wiki</u></Link>
+                    1. <Link style={{color:"#145C69"}} href="https://2023.igem.wiki/thailand-ris" target="_blank"><u>Wiki</u></Link>
                     </p>
                     <p>
-                    2. <Link style={{color:"#145C69"}} href="https://competition.igem.org/deliverables/judging-form"><u>Judging Form</u> </Link> — then enter &apos;&apos;Thailand-RIS&apos;&apos;
+                    2. <Link style={{color:"#145C69"}} href="https://competition.igem.org/deliverables/judging-form" target="_blank"><u>Judging Form</u> </Link> — then enter &apos;&apos;Thailand-RIS&apos;&apos;
                     </p>
                     <p>
-                    3. <Link style={{color:"#145C69"}} href="https://attributions.igem.org/?teamID=4629"><u>Project Attributions</u></Link>
+                    3. <Link style={{color:"#145C69"}} href="https://attributions.igem.org/?teamID=4629"target="_blank"><u>Project Attributions</u></Link>
                     </p>
                     <p>
-                    4. <Link style={{color:"#145C69"}} href="https://2023.igem.wiki/thailand-ris/description"><u>Project Description & Inspiration</u></Link>
+                    4. <Link style={{color:"#145C69"}} href="https://2023.igem.wiki/thailand-ris/description"target="_blank"><u>Project Description & Inspiration</u></Link>
                     </p>
                     <p>
-                    5. <Link style={{color:"#145C69"}} href="https://2023.igem.wiki/thailand-ris/contribution"><u>Contribution</u></Link>
+                    5. <Link style={{color:"#145C69"}} href="https://2023.igem.wiki/thailand-ris/contribution"target="_blank"><u>Contribution</u></Link>
                     </p>
                     <p>
-                        &nbsp;&nbsp;&nbsp;&nbsp;a. Part Registry Entry here: <Link style={{color:"#145C69"}} href="https://parts.igem.org/Part:BBa_K4629000"><u>part BBa_K4629000</u></Link>
+                        &nbsp;&nbsp;&nbsp;&nbsp;a. Part Registry Entry here: <Link style={{color:"#145C69"}} href="https://parts.igem.org/Part:BBa_K4629000"target="_blank"><u>part BBa_K4629000</u></Link>
                     </p>
                     <p>
-                    6.<Link style={{color:"#145C69"}} href="https://video.igem.org/w/4TvS4C6nUkvY3vV4T825Ri"><u>Project Promotion Video</u></Link>
+                    6.<Link style={{color:"#145C69"}} href="https://video.igem.org/w/4TvS4C6nUkvY3vV4T825Ri"target="_blank"><u>Project Promotion Video</u></Link>
                     </p>
                     <br/>
                         <iframe title="Thailand-RIS: Thailand RIS: Powering up Plant Defenses (2023) - Project Promotion [English]" class="medalPromoVid" src="https://video.igem.org/videos/embed/1f7cc087-7d9d-4442-aad9-f2ddad466c73" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups"></iframe>
@@ -85,10 +85,10 @@ export default function MedalPage() {
                     </p>
                     <br/>
                     <p>
-                        More information here: <Link style={{color:"#145C69"}} href="https://2023.igem.wiki/thailand-ris/engineering"><u>Engineering</u></Link>
+                        More information here: <Link style={{color:"#145C69"}} href="https://2023.igem.wiki/thailand-ris/engineering"target="_blank"><u>Engineering</u></Link>
                     </p>
                     <p>
-                        Part Registry Entry here: <Link style={{color:"#145C69"}} href="https://parts.igem.org/Part:BBa_K4629001"><u>part BBa_K4629001</u></Link>
+                        Part Registry Entry here: <Link style={{color:"#145C69"}} href="https://parts.igem.org/Part:BBa_K4629001"target="_blank"><u>part BBa_K4629001</u></Link>
                     </p>
                     <h2>
                         Human Practices
@@ -98,7 +98,7 @@ export default function MedalPage() {
                     </p>
                         <br/>
                     <p>
-                        More information here: <Link style={{color:"#145C69"}} href="https://2023.igem.wiki/thailand-ris/human-practices"><u>Human Practices</u></Link>
+                        More information here: <Link style={{color:"#145C69"}} href="https://2023.igem.wiki/thailand-ris/human-practices"target="_blank"><u>Human Practices</u></Link>
                     </p>
                 </div>
                 <div class="medalBox">
@@ -112,10 +112,10 @@ export default function MedalPage() {
                 </p>
                 <br/>
                 <p>
-                    More information here: <Link style={{color:"#145C69"}} href="https://2023.igem.wiki/thailand-ris/engineering"><u>Engineering Success</u></Link>
+                    More information here: <Link style={{color:"#145C69"}} href="https://2023.igem.wiki/thailand-ris/engineering"target="_blank"><u>Engineering Success</u></Link>
                 </p>
                 <p>
-                    Part Registry entry here: <Link style={{color:"#145C69"}} href="https://parts.igem.org/Part:BBa_K4629001"><u>part BBa_K4629001</u></Link>
+                    Part Registry entry here: <Link style={{color:"#145C69"}} href="https://parts.igem.org/Part:BBa_K4629001"target="_blank"><u>part BBa_K4629001</u></Link>
                 </p>
             <h2>
                 Specializations
@@ -124,8 +124,8 @@ export default function MedalPage() {
                 Our team is submitting specializations in the <b>Best Integrated Human Practices</b> and <b>Inclusivity Award</b> categories. The two pages below highlight the accomplishments within our project that qualify us to receive prizes in these two categories.
             </p>
             <br/>
-            <p><Link style={{color:"#145C69"}} href="https://2023.igem.wiki/thailand-ris/human-practices"><u>1. Human Practices</u></Link></p>
-            <p><Link style={{color:"#145C69"}} href="https://2023.igem.wiki/thailand-ris/inclusivity"><u>2. Inclusivity</u></Link></p>
+            <p><Link style={{color:"#145C69"}} href="https://2023.igem.wiki/thailand-ris/human-practices"target="_blank"><u>1. Human Practices</u></Link></p>
+            <p><Link style={{color:"#145C69"}} href="https://2023.igem.wiki/thailand-ris/inclusivity"target="_blank"><u>2. Inclusivity</u></Link></p>
             </div>
             </div>
         </div>
