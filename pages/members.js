@@ -298,7 +298,7 @@ function MembersPage({ children }) {
                     <h2 class="memberPositions">Wet Lab and Human Practices Member</h2>
                   </div>
                   <p class =" memberText">
-                  Hey all! I&apos;m Tun and I&apos;m a part of Wet Lab and Human Practices. Although I wouldn&apos;t be able to make it to this year&apos;s jamboree, I am very grateful that I have been able to work alongside my peers which I really enjoyed doing and hopefully we could bring back some silverware this year!               
+                  Hey all! I'm Tun and I'm a part of Wet Lab and Human Practices. Although I wouldn't be able to make it to this year's Jamboree, I am very grateful that I have been able to work alongside my peers which I really enjoyed doing and hopefully we will bring back some prizes this year! 
                   </p>
                 </div>
             </div> 

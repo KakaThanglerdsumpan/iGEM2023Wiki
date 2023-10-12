@@ -40,7 +40,7 @@ export default function HPPage() {
             </div>
             <div style={{paddingTop:"60px"}}class="text">
 
-                <h1 id="header1"><b>Introduction</b></h1>
+                <h1 id="header1">Introduction</h1>
                             <p>
                                 &nbsp;&nbsp;&nbsp;&nbsp;Thailand-RIS&apos; Human Practices team planned and carried out three interactive experiences based on genetic engineering in plants as a possible solution to reduce climate induced stress. This was done in order to connect and engage with both our school (Ruamrudee International School) community and the greater Thai community.
                             </p>  
@@ -49,7 +49,7 @@ export default function HPPage() {
                                 &nbsp;&nbsp;&nbsp;&nbsp;In Thailand, GM crops are a growing and viable contributor to sustainable practices in food security and the economy. Because of this, the team must understand their impacts on the community and pair this with the implications of our project. To do this, we conducted two surveys about GMOs — one directed to farmers and one directed to the general public — to glean the general awareness of synthetic biology among producers (farmers) and consumers (buyers and distributors of products for local and international markets). Looking at the results, we noticed several misconceptions:
                             </p>
 
-                    <h2><u>General Survey</u></h2>
+                    <h2>General Survey</h2>
                         <img class="figure"src="https://static.igem.wiki/teams/4629/wiki/human-practices/introduction/01-in.png"/>
                             <p>
                                 &nbsp;&nbsp;&nbsp;&nbsp;Our goal in Human Practices was to address these misconceptions for a more balanced and progressive understanding of the potential behind genetic engineering in relation to healthy crop production. In addition to visiting the communities who participated in the surveys, we also took inspiration from the results to create awareness workshops for both middle and elementary school-aged students so that stereotypes regarding GMOs can be minimized in future Thai generations. 
@@ -58,7 +58,7 @@ export default function HPPage() {
                             <p>
                                 &nbsp;&nbsp;&nbsp;&nbsp;All these projects were based on data collected using the sample population of 222 people who filled out the general survey T-RIS sent out.
                             </p>
-                <h1 id="header2"><b>Chanthaburi Community Outreach</b></h1>
+                <h1 id="header2">Chanthaburi Community Outreach</h1>
                             <p>
                                 &nbsp;&nbsp;&nbsp;&nbsp;Chanthaburi is one of seven provinces in eastern Thailand, located on the Gulf of Thailand bordering Cambodia&apos;s Battambang and Pailin provinces. Chanthaburi is well known for its impact on the Thai economy through agriculture — namely durian production. It is the largest producer of durians in Thailand, generating more than tens of billions of baht for Thailand annually. Its land is highly suitable for growing durian, taking five to seven years for a young durian tree to grow mature enough to produce the delicious fruit we enjoy. 
                             </p>
@@ -142,7 +142,7 @@ export default function HPPage() {
                             <h5>
                                 <i>Team Thailand-RIS&apos; Human Practices Team with the Governor of Chanthaburi, who is standing in the center.</i>
                             </h5>
-                <h1 id="header3"><b>Middle School Workshop</b></h1>
+                <h1 id="header3">Middle School Workshop</h1>
                             <p>
                                 &nbsp;&nbsp;&nbsp;&nbsp;The human practices team presented their research and the lab results — including the different aspects of the iGEM competition — to middle school students (7th & 8th graders). 
                             </p>
@@ -181,7 +181,7 @@ export default function HPPage() {
                             <p>
                                 &nbsp;&nbsp;&nbsp;&nbsp;Overall, the workshop was a beneficial experience for students, their teachers and our team, providing both a valuable and hopefully sustainable learning <i>and</i> teaching experience.
                             </p>
-                <h1 id="header4"><b>Elementary School Workshop</b></h1>
+                <h1 id="header4">Elementary School Workshop</h1>
                             <p>
                                 &nbsp;&nbsp;&nbsp;&nbsp;Our goal for introducing our synbio project to an upper-elementary aged audience was to nurture their natural curiosity and develop their interest in biology and science in general. Through our workshop, they got a glimpse of the real-world applications of synthetic biology and were inspired to make a difference in the future.
                             </p>
@@ -233,6 +233,9 @@ export default function HPPage() {
                             <h5>
                                 <i>Post-workshop interview done with six of the 4th graders.</i>
                             </h5>
+                            <p>
+                                &nbsp;&nbsp;&nbsp;&nbsp;Since the 4th graders loved the activity and team so much, we plan to host another session with them to recount what we will accomplish and experience at the Giant Jamboree in Paris.
+                            </p>
             </div>
         </div>
     </div>

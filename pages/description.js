@@ -14,9 +14,7 @@ export default function Description() {
 
   return (
     <div>
-        <img class="wideTitleScreen" style={{width: "100%", marginBottom: "-4px"}} src={wideTitleScreenUrl}/>
-        {/* <img class="narrowTitleScreen" style={{width: "100%", marginBottom: "-4px"}} src={narrowTitleScreenUrl}/> */}
-    
+        <img class="wideTitleScreen" style={{width: "100%", marginBottom: "-4px"}} src={wideTitleScreenUrl}/>    
                 
             {/* ====================CODE FOR SIDE BAR ENDS=============================== */}
             {/* ====================CODE FOR TEXT STARTS=============================== */}
@@ -42,7 +40,7 @@ export default function Description() {
                     <b>Figure 2:</b> Biosynthesis pathway of glutamic acid and cysteine metabolizing into GSH through GCL and GSH synthase. 
                 </h5>
                 <p>
-                    &nbsp;&nbsp;&nbsp;&nbsp;In GSH biosynthesis, GCL catalyzes the formation of &gamma;-Glutamyl-cysteine (&gamma;-EC), which subsequently forms GSH by glutathione synthase (GSS) (Fig. 2). A study by Quintana-Cabrera <i>et at</i>. (March 6, 2012) found that by directing the biosynthesis of &gamma;-EC to the mitochondria, which originally cannot produce GSH due to the absence of a mitochondrial GSS, the mitochondria could now effectively detoxify ROS, hydrogen peroxide and superoxide anions, in human HEK293T cell. Moreover, the full prevention of apoptotic death was also found in primary neurons which endogenously synthesized &gamma;-EC<sup>[5]</sup>. As ROS were also produced in plants, this paper inspired the team to create a hypothesis as to whether modifying GCL to localize to the mitochondria could in turn enhance the stress response of plants by shortening the pathway to neutralizing ROS.
+                    &nbsp;&nbsp;&nbsp;&nbsp;In GSH biosynthesis, GCL catalyzes the formation of &gamma;-Glutamyl-cysteine (&gamma;-EC), which subsequently forms GSH by glutathione synthase (GSS) (Fig. 2). A study by Quintana-Cabrera <i>et at</i>. (March 6, 2012) found that by directing the biosynthesis of &gamma;-EC to the mitochondria, which originally cannot produce GSH due to the absence of a mitochondrial GSS, the mitochondria could now effectively detoxify ROS, hydrogen peroxide and superoxide anions, in human HEK293T cell. Moreover, the full prevention of apoptotic death was also found in primary neurons which endogenously synthesized &gamma;-EC<sup>[5]</sup>. As ROS were also produced in plants, this paper inspired the team to construct a hypothesis as to whether modifying GCL to localize to the mitochondria could in turn enhance the stress response of plants by shortening the pathway to neutralizing ROS.
                 </p>
                 <br></br>
                 <p>
@@ -50,7 +48,7 @@ export default function Description() {
                 </p>
                 <img class="figure"src="https://static.igem.wiki/teams/4629/wiki/wet-lab/description/wldesc4.jpg"/>
 
-            <h2><b>References</b></h2>
+            <h2>References</h2>
                 <ol class="references">
                     <li>
                         Thailand - agriculture. International Trade Administration | Trade.gov. July 25, 2022. Accessed Septeber 3, 2023. https://www.trade.gov/country-commercial-guides/thailand-agriculture#:~:text=Agriculture%20accounts%20for%20only%20six,canned%20tuna%2C%20and%20canned%20pineapple.

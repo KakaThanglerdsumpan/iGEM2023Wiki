@@ -46,7 +46,7 @@ const MENU_LIST = [
     dd: "displayNone", 
     mainButton: "displayNone", 
     rootButton: "displayNone", 
-    rootHref: "https://www.rism.ac.th/", 
+    rootHref: "/medal", 
     ddItem1: "displayNone", ddItem2: "displayNone", ddItem3: "displayNone", ddItem4: "displayNone", ddItem5: "displayNone", ddItem6: "displayNone", ddItem7: "displayNone", ddItem8: "displayNone",
     ddHref1: "", ddHref2: "", ddHref3: "", ddHref4: "", ddHref5: "", ddHref6: "", ddHref7: "", ddHref8: "",
     text1: "",  text2: "Inclusivity",   text3: "",   text4: "4",   text5: "5",   text6: "6",  text7: "7", text8: "8",

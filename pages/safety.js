@@ -35,7 +35,7 @@ export default function Safety() {
                         Agroinfiltration of <i>N. benthamiana</i> with gloves, lab coats, and safety goggles. Safety goggles were used during agroinfiltration to prevent the solution from entering the eyes. Biosafety cabinet used when creating the agroinfiltration solution.
                     </h5>
 
-                <h2>Bibliography</h2>
+                <h2>References</h2>
                     <ol class="references">
                         <li>
                             Chuanchuen R. Biological Spills - Response and Clean Up. Cuvetamr.vet.chula.ac.th. September 16, 2020. Accessed June 13, 2023. http://www.cuvetamr.vet.chula.ac.th/media/content/file/2021/04/CONTENT_FILE_35_20210421083831.pdf.

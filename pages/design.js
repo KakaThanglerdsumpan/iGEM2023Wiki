@@ -30,7 +30,7 @@ export default function DesignPage() {
                         Plasmid Design
                     </button>
                     <button class="contentsButton" onClick={() => handleClick("header4")}>
-                        Bibliography
+                        References
                     </button>
                 </div>
                 
@@ -105,7 +105,7 @@ export default function DesignPage() {
                     </p>
                     <img class="figure"src="https://static.igem.wiki/teams/4629/wiki/dry-lab/fig6.png"/>
                         <h5>
-                            <b>Figure 6.</b> The 3D structures of DzGCL (unmodified) mDzGCL (the modified DzGCL) predicted through AlphaFold2. The functional domain of  DzGCL and mDzGCL are highlighted in green and red, respectively.
+                            <b>Figure 6.</b> The 3D structures of DzGCL (unmodified) and mDzGCL (the modified DzGCL) predicted through AlphaFold2. The functional domain of  DzGCL and mDzGCL are highlighted in green and red, respectively.
                         </h5>
           
                     <img class="figureTooBig"src="https://static.igem.wiki/teams/4629/wiki/dry-lab/fig8.jpg"/>
@@ -138,7 +138,7 @@ export default function DesignPage() {
 
                     </p>
 
-            <h2 id="header4">Bibliography</h2>
+            <h2 id="header4">References</h2>
                 <ol class="references">
                     <li>
                         Singcha P, Khaksar G, Sirijan M, Sirikantaramas S. Durian (<i>Durio zibethinus</i> L.) fruit: A superior dietary source of natural glutathione and &gamma;-glutamylcysteine. SSRN. 2023; 4566631. doi:10.2139/ssrn.4566631

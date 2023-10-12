@@ -1315,6 +1315,9 @@ nav.nav{
   /* box-shadow: 5px 1px 0px rgba(1,1,1,0.2); */
 }
 @media  screen and (max-width: 700px) {
+  .indent{
+    margin-left: 20px;
+  }
   .contentsBar{
     display: none;
   }  
@@ -1437,4 +1440,82 @@ nav.nav{
   height: 30vh;
 }
 
+
+
+
+
+section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pls2 {
+  background-image: url("https://static.igem.wiki/teams/4629/wiki/promobackground.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.grid1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+
+.box1 {
+  background-color: #3498db;
+  color: #fff;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .grid1 {
+      grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  inset: 0;
+  text-align: center;
+  align-items: center;
+  justify-items: center;
+  z-index: 100;
+}
+@media screen and (max-width: 600px) {
+  .grid-container {
+      grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.grid-item {
+  padding: 1rem;
+}
+
+.title {
+  font-size: 1.5rem; 
+  font-weight: bold;
+}
+
+.subtitle {
+  font-size: 1rem; 
+  font-weight: normal;
+}
+
+.percentage {
+  font-size: 1.5rem; 
+  font-weight: bold;
+  color: #3498db; 
+}
+
+.pls4 {
+  background-image: url("https://static.igem.wiki/teams/4629/wiki/quotebackground.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
 

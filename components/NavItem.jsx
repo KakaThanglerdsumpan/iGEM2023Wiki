@@ -26,7 +26,7 @@ const NavItem = (
 
         <div class={externalRoot}>
           <button class="nav__link dropbtn">
-            <a class="nav__link dropbtn" href={rootHref}>{text}</a>
+            <Link class="nav__link dropbtn" href={rootHref}>{text}</Link>
           </button>
         </div>
           {/* ------------------------dropdown items---------------------- */}

@@ -24,7 +24,6 @@ function Engineering() {
                     <button class="contentsButton" onClick={() => handleClick("header1")}>
                         Approach
                     </button>
-                
                     <button class="contentsButton" onClick={() => handleClick("header3")}>
                         Vector Construction with Mitochondrial Transit Peptide
                     </button>
@@ -47,7 +46,7 @@ function Engineering() {
                         Statistical Analysis
                     </button>
                     <button class="contentsButton" onClick={() => handleClick("header10")}>
-                        Bibliography
+                        References
                     </button>
                 </div>
                 
@@ -57,18 +56,21 @@ function Engineering() {
             </div>
             <div style={{paddingTop:"60px"}}class="text">
 
-                <h1 id="header1"><b>Approach</b></h1>
+                <h1 id="header1">Approach</h1>
                     <p>
                         &nbsp;&nbsp;&nbsp;&nbsp; Agroinfiltration approach was chosen in order to localize GCL into mitochondria in plants. <i>Agrobacterium tumefaciens</i> is a phytopathogenic bacterium that infects plant cells, leading to crown gall disease by transferring  part of its genetic material into the plant genome. This type of bacterium is now modified to be harmless for use as a key tool in biotechnology in order to transfer genes of interest into plant cells for a variety of biological uses. For localizing mitochondria, <i>A. tumefaciens</i> was transformed by the construction of mitochondrial transit peptide and <i>Durio zibethinus GCL</i> gene and subsequently agroinfiltrated  into <i>Nicotiana benthamiana</i> leaves. As <i>N. benthamiana</i> is one of the plants with the most mapped genomes, so it would be easier to interpret results. Moreover, many studies have shown that <i>N. benthamiana</i> is a good host system for studying the functional characterization of many genes, making it an efficient system for infiltration.
                     </p>
-                    
                 
-                <h1 id="header2"><b>Procedure</b></h1>
-                    <h2 id="header3"><b>Vector Construction With Mitochondrial Transit Peptide</b> </h2>
+                <h1 id="header2">Procedure</h1>
+                    <h2 id="header3">Vector Construction With Mitochondrial Transit Peptide</h2>
                         <p>
-                            &nbsp;&nbsp;&nbsp;&nbsp;The amino acid sequence of DzGCL was obtained from the NCBI database (accession number: XP_022738907.1). The chloroplast transit peptide was predicted using TargetP-2.0 <sup>[1]</sup> and then was removed from the full-length of DzGCL. The mitochondrial transit peptide from <i>Arabidopsis thaliana</i> Succinate dehydrogenase <sup>[2]</sup> was then inserted instead of the chloroplast transit peptide to obtain the completed sequence of DzGCL with the mitochondrial transit peptide (mDzGCL). This protein then was translated back into nucleotides and inserted in pCAMBIA1301. The complete construct was ordered from Biomatik company (USA). Read more in <Link href={`/design`} style={{color:`blue`}}><u>Design</u></Link>.
+                            &nbsp;&nbsp;&nbsp;&nbsp;The amino acid sequence of DzGCL was obtained from the NCBI database (accession number: XP_022738907.1). The chloroplast transit peptide was predicted using TargetP-2.0<sup>1</sup> and then was removed from the full-length of DzGCL. The mitochondrial transit peptide from <i>Arabidopsis thaliana</i> Succinate dehydrogenase<sup>2</sup> was then inserted instead of the chloroplast transit peptide to obtain the completed sequence of DzGCL with the mitochondrial transit peptide (mDzGCL). This protein then was translated back into nucleotides and inserted in pCAMBIA1301. The complete construct was ordered from Biomatik company (USA).  Refer to <Link href={`/design`} style={{color:`blue`}}><u>Design</u></Link>. for more details.
                         </p>
-                    <h2 id="header4"><b>Plant material and preparation</b></h2>
+                        <br></br>
+                        <p>
+                            &nbsp;&nbsp;&nbsp;&nbsp;Team Thailand-RIS modified DzGCL to shorten the GSH pathway in hopes of improving plant tolerance to external stressors. The team has listed the gene (<i>mDzGCL</i>) in the part registry as <Link href={`https://parts.igem.org/Part:BBa_K4629001`} style={{color:`blue`}}><u>part BBa_K4629001</u></Link>.
+                        </p>
+                    <h2 id="header4">Plant material and preparation</h2>
                         <p>
                             &nbsp;&nbsp;&nbsp;&nbsp;The seeds of <i>N. benthamiana</i> were scattered in pots containing peat moss and were grown under controlled conditions. The plants were cultivated in an environment maintained at 25&deg;C, with a light-dark cycle of 16 hours of illumination followed by 8 hours of darkness (provided by artificial lights at an intensity of 4,500 lux). Two-week-old plants were planted individually into new pots and were grown under similar conditions.
                         </p>
@@ -76,7 +78,7 @@ function Engineering() {
                         <h5>
                             <i>N. benthamiana</i> plants growing under controlled conditions at 25&deg;C, with a light-dark cycle of 16 hours of illumination followed by 8 hours of darkness (provided by artificial lights at an intensity of 4,500 lux)
                         </h5>
-                    <h2 id="header5"><b>Bacteria Transformation</b></h2>
+                    <h2 id="header5">Bacteria Transformation</h2>
                         <p>
                             &nbsp;&nbsp;&nbsp;&nbsp;The construct and control (<i>GFP</i> in pCAMBIA1301) vector were transformed into <i>A. tumefaciens</i> strain GV3101 and cloning was confirmed with Colony PCR. <i>GFP</i> was chosen as it has no effect towards the GSH pathway. 
                         </p>
@@ -89,17 +91,17 @@ function Engineering() {
                         </p>
                         <img class="figure"src="https://static.igem.wiki/teams/4629/wiki/wet-lab/engineering/engineeringcombine3.png"/>
                         <h5>
-                            <b>Figure 1.</b> (a) Bacteria colony growth on an agar medium with antibiotic , only transformed  <i>A. tumefaciens</i> should be resistant to.  and (b) Gel electrophoresis of the colony PCR for <i>mDzGCL</i>-pCAMBIA1301 plasmid.
+                            <b>(A)</b>  Bacteria colony growth on an agar medium with antibiotic, only transformed  <i>A. tumefaciens</i> should be resistant to.  and <b>(B)</b>  Gel electrophoresis of the colony PCR for <i>mDzGCL</i>-pCAMBIA1301 plasmid.
                         </h5>
-                    <h2 id="header6"><b>Plant Transformation</b></h2>
+                    <h2 id="header6">Plant Transformation</h2>
                         <p>
-                            &nbsp;&nbsp;&nbsp;&nbsp;<i>A. tumefaciens</i> containing the construct or control was cultured at 30&deg;C for 48 hours, then pelleted and resuspended in an OD<sub>600</sub> = 0.5 in MM buffer (10 mM MES pH 5.6, 10 mM MgCl<sub>[2]</sub>). For agroinfiltration, the <i>A. tumefaciens</i> solution containing either gene or a control vector was mixed with the <i>A. tumefaciens</i> solution harboring the gene encoding the silencing inhibitor protein p19 at a ratio of 1:1. Thereafter, 100 mg/l acetosyringone was added, and the mixed culture solution was incubated at room temperature for 3 hours under dark conditions. The solution was then used to infiltrate the surface of three individual leaves per  <i>N. benthamiana</i> plant using a needleless 1-mL syringe. For each construct, 6-week-old plants were used.<sup>[3]</sup>. At least 4 leaves, considered as 4 replicates, were infiltrated for each construct.
+                            &nbsp;&nbsp;&nbsp;&nbsp;<i>A. tumefaciens</i> containing the construct or control was cultured at 30&deg;C for 48 hours, then pelleted and resuspended in an OD<sub>600</sub> = 0.5 in MM buffer (10 mM MES pH 5.6, 10 mM MgCl<sub>2</sub>). For agroinfiltration, the <i>A. tumefaciens</i> solution containing either gene or a control vector was mixed with the <i>A. tumefaciens</i> solution harboring the gene encoding the silencing inhibitor protein p19 at a ratio of 1:1. Thereafter, 100 mg/l acetosyringone was added, and the mixed culture solution was incubated at room temperature for 3 hours under dark conditions. The solution was then used to infiltrate the surface of three individual leaves per  <i>N. benthamiana</i> plant using a needleless 1-mL syringe. For each construct, 6-week-old plants were used.<sup>3</sup> At least 4 leaves, considered as 4 replicates, were infiltrated for each construct.
                         </p>
                         <img class="figure"src="https://static.igem.wiki/teams/4629/wiki/wet-lab/engineering/figurecombine2.png"/>
                         <h5>
                             Incubation of culture solution and infiltration of <i>N. benthamiana</i> 
                         </h5>
-                    <h2 id="header7"><b>Conditions/Treatment</b></h2>
+                    <h2 id="header7">Conditions/Treatment</h2>
                         <p>
                             &nbsp;&nbsp;&nbsp;&nbsp;The transiently overexpressed  <i>mDzGCL</i> and control in <i>N. benthamiana</i>  were treated under normal, drought, heat, and salt stress conditions. 
                         </p>
@@ -130,33 +132,33 @@ function Engineering() {
                                 </li>
                             </ol>
                         </div>
-                    <h2 id="header8"><b>&gamma;-EC Content Analysis</b></h2>
+                    <h2 id="header8">&gamma;-EC Content Analysis</h2>
                         <p>
                             &nbsp;&nbsp;&nbsp;&nbsp;The construct and control were agroinfiltrated on <i>N. benthamiana</i> leaves. After 5 days, the infiltrated leaves were collected, immediately frozen in liquid nitrogen, ground into a fine powder, and freeze dried, which was then used for the metabolite analysis.
                         </p>
                         <p>
-                            &nbsp;&nbsp;&nbsp;&nbsp;The &gamma;-EC and GSH were extracted and analyzed by HPLC &apos;&apos;Metabolic variation in the pulps of two durian cultivars: Unraveling the &apos;&apos;<sup>[4]</sup> 
+                            &nbsp;&nbsp;&nbsp;&nbsp;The &gamma;-EC and GSH were extracted and analyzed by HPLC.<sup>4</sup> 
                         </p>
                         <img class="figure"src="https://static.igem.wiki/teams/4629/wiki/wet-lab/engineering/wlengineering6.jpg"/>
                     
-                    <h2 id="header9"><b>Statistical Analysis</b></h2>
+                    <h2 id="header9">Statistical Analysis</h2>
                         <p>
-                            &nbsp;&nbsp;&nbsp;&nbsp;Significance analysis of the corresponding experimental data was performed using T-test calculator (*p &lt; 0.05).
+                            &nbsp;&nbsp;&nbsp;&nbsp;Significance analysis of the corresponding experimental data was performed using T-test calculator (https://www.graphpad.com/quickcalcs/ttest1.cfm) (*p &lt; 0.05)..
                         </p>
 
-                <h2 id="header10">Bibliography</h2>
+                <h2 id="header10">References</h2>
                     <ol class="references">
                         <li>
-                            Emanuelsson O, Brunak S, von Heijne G, Nielsen H. Locating proteins in the cell using targetp, signalp and related tools. Nature Protocols. 2007;2(4):953-971. doi:10.1038/nprot.2007.131
+                            Emanuelsson O, Brunak S, von Heijne G, Nielsen H. Locating proteins in the cell using TargetP, SignalP and related tools. <i>Nature Protocols</i>. 2007;2(4):953-971. doi:10.1038/nprot.2007.131 
                         </li>
                         <li>
-                            Figueroa P, Leon G, Elorsa E, Holuigue L, Jordana X. Three different genes encode the iron-sulfur subunit of succinate dehydrogenase in <i>Arabidopsis thaliana</i>. Plant Molecular Biology. 2021;46:241-250. doi:10.1023/A:1010612506070
+                            Figueroa P, Leon G, Elorsa E, Holuigue L, Jordana X. Three different genes encode the iron-sulfur subunit of succinate dehydrogenase in <i>Arabidopsis thaliana</i>. <i>Plant Molecular Biology</i>. 2021;46:241-250. doi:10.1023/A:1010612506070   
                         </li>
                         <li>
-                            Khaksar G, Sangchay W, Pinsorn P, Sangpong L, Sirikantaramas S. Genome-wide analysis of the <i>DOF</i> gene family in durian reveals fruit ripening-associated and cultivar-dependent DOF transcription factors. Scientific Reports. 2019;9(1):12109. doi:10.1038/s41598-019-48601-7
+                            Khaksar G, Sangchay W, Pinsorn P, Sangpong L, Sirikantaramas S. Genome-wide analysis of the <i>DOF</i> gene family in durian reveals fruit ripening-associated and cultivar-dependent DOF transcription factors. <i>Scientific Reports</i>. 2019;9(1):12109. doi:10.1038/s41598-019-48601-7
                         </li>
                         <li>
-                            Pinsorn P, Oikawa A, Watanabe M, Sasaki R, Ngamchuachit P, Hoefgen R, Saito K, Sirikantaramas S. Metabolic variation in the pulps of two durian cultivars: Unraveling the metabolites that contribute to the flavor. Food Chemistry. 2018; 268:118-125. doi:10.1016/j.foodchem.2018.06.066
+                            Pinsorn P, Oikawa A, Watanabe M, Sasaki R, Ngamchuachit P, Hoefgen R, Saito K, Sirikantaramas S. Metabolic variation in the pulps of two durian cultivars: Unraveling the metabolites that contribute to the flavor. <i>Food Chemistry</i>. 2018; 268:118-125. doi:10.1016/j.foodchem.2018.06.066  
                         </li>
                     </ol>
                 <div  class="yBox100"/>

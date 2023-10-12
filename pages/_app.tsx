@@ -17,7 +17,10 @@ export default function MyApp({ Component, pageProps }: AppProps) {
         <link rel="icon" href="https://static.igem.wiki/teams/4629/wiki/favicon6.png" />
       </Head>
       <Navbar />
+      <div className="yBox60"></div>
+
       <Component {...pageProps} />
+      
       <Bottombar />
     </>
   );
