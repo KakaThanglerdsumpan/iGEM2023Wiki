@@ -1,8 +1,9 @@
 import {useRef} from 'react';
+import Link from 'next/link';
 
 export default function MedalPage() {
 
-    const wideTitleScreenUrl = "https://static.igem.wiki/teams/4629/wiki/titlescreens/labtitletext.png";
+    const wideTitleScreenUrl = "https://static.igem.wiki/teams/4629/wiki/titlescreens/medalrequirements.png";
     const narrowTitleScreenUrl = "https://static.igem.wiki/teams/4629/wiki/titlescreens/labtitletext.png";
     const handleClick = (elID) => {
     const element = document.getElementById(elID)
@@ -18,78 +19,76 @@ export default function MedalPage() {
         {/* <img class="narrowTitleScreen" style={{width: "100%", marginBottom: "-4px"}} src={narrowTitleScreenUrl}/> */}
         <div class="row">
             <div class="contentsBar">
-                <div style={{position: "sticky", top:"100px"}}class="column">
-                    <h1 style={{marginBottom: '20px'}}>Contents</h1>
+                <div style={{position: "sticky", top:"200px"}}class="column">
+                    <h2 style={{marginBottom: '20px'}}>Medal Requirements</h2>
                     <button class="contentsButton" onClick={() => handleClick("header1")}>
-                        Header1
+                        BRONZE MEDAL DELIVERABLES
                     </button>
                     <button class="contentsButton" onClick={() => handleClick("header2")}>
-                        Header2
+                        SILVER MEDAL DELIVERABLES
                     </button>
                     <button class="contentsButton" onClick={() => handleClick("header3")}>
-                        Header3
+                        GOLD MEDAL DELIVERABLES
                     </button>
-                    <button class="contentsButton" onClick={() => handleClick("header4")}>
-                        Header4
-                    </button>
-                    <button class="contentsButton" onClick={() => handleClick("header5")}>
-                        Header5
-                    </button>
-                    <button class="contentsButton" onClick={() => handleClick("header6")}>
-                        Header6
-                    </button>
-                    <button class="contentsButton" onClick={() => handleClick("header7")}>
-                        Header6
-                    </button>
-                    <button class="contentsButton" onClick={() => handleClick("header8")}>
-                        Header6
-                    </button>
-                    <button class="contentsButton" onClick={() => handleClick("header9")}>
-                        Header6
-                    </button>
+                
                 </div>
                 
             {/* ====================CODE FOR SIDE BAR ENDS=============================== */}
             {/* ====================CODE FOR TEXT STARTS=============================== */}
 
             </div>
-            <div style={{paddingTop:"60px"}}class="text">
-
-                <h1 id="header1">Synthesizing the Mitochondrial GCL</h1>
+            <div class="column text">
+            <h1 id="header1"><center>Medal Requirements</center></h1>
+                <div class="medalBox">
+                <p>
+                    &nbsp;&nbsp;&nbsp;&nbsp; Our team has completed the following deliverables required for the Bronze, Silver, and Gold medals.
+                </p>
+                </div>
+                <div class="medalBox">
+                    <h1 id="header2"><center>Bronze Medal Deliverables</center></h1>
                     <p>
-                        The synthesis of the mitochondrial <i>Durio zibethinus</i> Glutamate-Cysteine Ligase (mDzGCL) protein used in this project was done through replacing the chloroplast transit peptide found in <i>Durio zibethinus</i> Glutamate-Cysteine Ligase (DzGCL) with a mitochondrial transit peptide found in <i>Arabidopsis thaliana</i> succinate dehydrogenase (SDH).
+                    Click on a deliverable for more details:
                     </p>
-                        <div class="indent">
+                    <p>
+                    1. <Link style={{color:"#145C69"}} href="https://2023.igem.wiki/thailand-ris"><u>Wiki</u></Link>
+                    </p>
+                    <p>
+                    2. <Link style={{color:"#145C69"}} href="https://competition.igem.org/deliverables/judging-form"><u>Judging Form</u> </Link> — then type &apos;&apos;Thailand-RIS&apos;&apos;
+                    </p>
+                    <p>
+                    3. <Link style={{color:"#145C69"}} href="https://attributions.igem.org/?teamID=4629"><u>Project Attributions</u></Link>
+                    </p>
+                    <p>
+                    4. <Link style={{color:"#145C69"}} href="https://2023.igem.wiki/thailand-ris/description"><u>Project Description & Inspiration</u></Link>
+                    </p>
+                    <p>
+                    5. <Link style={{color:"#145C69"}} href="https://2023.igem.wiki/thailand-ris/contribution"><u>Contribution</u></Link>
+                    </p>
+                    <p>
+                        &nbsp;&nbsp;&nbsp;&nbsp;a. Part Registry Entry here: <Link style={{color:"#145C69"}} href="https://parts.igem.org/Part:BBa_K4629000"><u>part BBa_K4629000</u></Link>.
+                    </p>
+                    <p>
+                    6.<Link style={{color:"#145C69"}} href="https://video.igem.org/w/4TvS4C6nUkvY3vV4T825Ri"><u>Project Promotion Video</u></Link>
+                    </p>
+                        <br/>
+                    <iframe title="Thailand-RIS: 08 ES (2023) [English]" width="560" height="315" src="https://video.igem.org/w/4TvS4C6nUkvY3vV4T825Ri" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups"></iframe>
+                </div>
+                <div class="medalBox">
+                    <h1 id="header3"><center>Silver Medal Deliverables</center></h1>
 
-                        <h2>Plant and Gene Selection</h2>
-                            <p>
-                                &nbsp;&nbsp;&nbsp;&nbsp;DzGCL was selected as the ideal candidate GCL protein for relocalization due to its remarkable attributes observed in <i>D. zibethinus </i>. This unique plant species displays significantly elevated levels of glutathione (GSH)<sup>[1]</sup> in its ripe fruit pulp much higher than that in other plants<sup>[2]</sup>. This distinct characteristic suggests the DzGCL as a candidate enzyme with possibly high activity. GCL serves as the rate limiting enzyme in the production of GSH, the primary antioxidant. 
-                                <br/>
-                                &nbsp;&nbsp;&nbsp;&nbsp;<i>A. thaliana</i>  SDH, on the other hand, served as our model for obtaining the mitochondrial transit peptide. A. thaliana was chosen as our model plant due to its well-established status in plant biology research, with its genetic characteristics widely studied and understood<sup>[3]</sup>. Furthermore, given that SDH is a fundamental component within the mitochondrial electron transport chain, the team hypothesized that it must contain a mitochondrial transit peptide facilitating its localization to the mitochondria. Through literature review, this hypothesis was found to be true as Figueroa <i>et al</i>. successfully identified the transit peptide in <i>A. thaliana</i> SDH and validated its role in localizing SDH to the mitochondria in 2001<sup>[4]</sup>. 
-                            </p>
-                        <h2>Gene Modification</h2>
-                            <p>
-                                &nbsp;&nbsp;&nbsp;&nbsp;The first step was to identify the amino acid sequence of DzGCL from the NCBI database (accession number: XP_022738907.1). After obtaining the amino acid sequence, the natural chloroplast transit peptide of DzGCL must be predicted in order to be deleted and replaced accordingly. The chloroplast transit peptide within DzGCL was predicted through the TargetP-2.0 software<sup>[5]</sup>(Fig. 1), utilizing its deep learning algorithm trained on a diverse dataset of biological sequences, including known chloroplast transit peptides,  to recognize indicative features of sorting signals<sup>[6]</sup>. 
-                            </p>
-                            <img class="figure"src="https://static.igem.wiki/teams/4629/wiki/dry-lab/fig1.png"/>
-                            <h5>
-                                <b>Figure 1.</b> Prediction of chloroplast transit peptide in DzGCL by TargetP-2.0, where all of the amino acids from the left peak and onwards to the left boxed in gray were predicted to be part of the chloroplast transit peptide. 
-                            </h5>
-                            <img class="figureTooBig"src="https://static.igem.wiki/teams/4629/wiki/dry-lab/fig1.png"/>
-                            <h5>
-                                <b>Figure 1.</b> Prediction of chloroplast transit peptide in DzGCL by TargetP-2.0, where all of the amino acids from the left peak and onwards to the left boxed in gray were predicted to be part of the chloroplast transit peptide. 
-                            </h5>
-                        </div>
-                <h1 id="header2">header2</h1>
-                <h1 id="header3">header3</h1>
-                <h1 id="header4">header4</h1>
-                <h1 id="header5">header5</h1>
-                <h1 id="header6">header6</h1>
+                </div>
+                <div class="medalBox">
+                    <h1 id="header3"><center>Gold Medal Deliverables</center></h1>
+
+                </div>
 
 
             </div>
+           
         </div>
     </div>
+
    
   );
 }
+
