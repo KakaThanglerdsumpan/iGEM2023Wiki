@@ -1,31 +1,205 @@
-/* Custom CSS for the MastHead component */
+.absolute {
+  position: absolute;
+}
+.relative {
+  position: relative;
+}
+.inset-0 {
+  inset: 0px;
+}
+.bottom-20 {
+  bottom: 5rem;
+}
+.z-0 {
+  z-index: 0;
+}
+.mb-4 {
+  margin-bottom: 1rem;
+}
+.flex {
+  display: flex;
+}
+.grid {
+  display: grid;
+}
+.h-auto {
+  height: auto;
+}
+.h-screen {
+  height: 100vh;
+}
+.min-h-screen {
+  min-height: 100vh;
+}
+.w-3\/4 {
+  width: 75%;
+}
+.w-full {
+  width: 100%;
+}
+.grid-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+.items-center {
+  align-items: center;
+}
+.justify-center {
+  justify-content: center;
+}
+.gap-5 {
+  gap: 1.25rem;
+}
+.rounded-\[5\%\] {
+  border-radius: 5%;
+}
+.border-transparent {
+  border-color: transparent;
+}
+.bg-cover {
+  background-size: cover;
+}
+.bg-center {
+  background-position: center;
+}
+.object-cover {
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.p-5 {
+  padding: 1.25rem;
+}
+.text-center {
+  text-align: center;
+}
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+.font-black {
+  font-weight: 900;
+}
+.font-bold {
+  font-weight: 700;
+}
+.text-what {
+  --tw-text-opacity: 1;
+  color: rgb(240 123 62 / var(--tw-text-opacity));
+}
+.text-whatt {
+  --tw-text-opacity: 1;
+  color: rgb(82 203 190 / var(--tw-text-opacity));
+}
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+.drop-shadow-\[0_5px_3px_rgba\(0\2c 0\2c 0\2c 0\.4\)\] {
+  --tw-drop-shadow: drop-shadow(0 5px 3px rgba(0, 0, 0, 0.4));
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast)
+    var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate)
+    var(--tw-sepia) var(--tw-drop-shadow);
+}
+
 .masthead {
-    position: relative;
+  position: relative;
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  z-index: -1;
+}
+.masthead video {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.masthead {
+  height: 100vh;
+}
+
+@media (min-width: 640px) {
+  .sm\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
-  
-  .video-bg {
-    object-fit: cover;
-    width: 100%;
-    min-height: 100vh;
-  }
-  
-  .text-container {
-    bottom: 20px;
-    box-shadow: 0 5px 3px rgba(0, 0, 0, 0.4);
-  }
-  
-  .text-heading {
-    color: #fff;
-    font-size: 4rem;
-  }
-  
-  .text-subheading {
-    color: #fff;
-    font-size: 3rem;
-  }
-  
-  .text-description {
-    color: #fff;
+  .sm\:text-2xl {
     font-size: 1.5rem;
+    line-height: 2rem;
   }
-  
+  .sm\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+  .sm\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+  .sm\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+  .sm\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+  .sm\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+}
+@media (min-width: 768px) {
+  .md\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+  .md\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+  .md\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+}
+@media (min-width: 1024px) {
+  .lg\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+  .lg\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+  .lg\:text-7xl {
+    font-size: 4.5rem;
+    line-height: 1;
+  }
+}
+@media (min-width: 1280px) {
+  .xl\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+  .xl\:text-7xl {
+    font-size: 4.5rem;
+    line-height: 1;
+  }
+  .xl\:text-8xl {
+    font-size: 6rem;
+    line-height: 1;
+  }
+}
