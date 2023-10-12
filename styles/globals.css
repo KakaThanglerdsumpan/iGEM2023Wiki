@@ -475,6 +475,11 @@ nav.nav{
   scroll-margin-top: 80px; /* whatever is a nice number that gets you past the header */
 }
 
+.medal{
+  margin-bottom: 20px;
+  scroll-margin-top: 120px; /* whatever is a nice number that gets you past the header */
+
+}
 /* contentsBar */
 .contentsBar{
   height: inherit;
@@ -493,6 +498,10 @@ nav.nav{
     display: none;
   }  
   .text{
+    padding-left: 18px !important;
+    padding-right: 18px !important;
+  }
+  .medalRequirements{
     padding-left: 18px !important;
     padding-right: 18px !important;
   }
@@ -523,15 +532,66 @@ nav.nav{
   padding-left: 40px;
   padding-right: 40px;
 }
+.medalRequirements{
+  
+    max-width: 760px;
+    margin: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
 .medalBox{
-  max-width: 760px;
+  width: 760px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 100px;
-  margin-top: 100px;
+  margin-bottom: 80px;
+  margin-top: 20px;
   padding: 40px;
   border-radius: 40px;
   background-color: #f0972b;
+  color: whitesmoke;
+}
+.medalBox h2{
+  margin-top: 20px;
+}
+.medalPromoVid{
+  width: 680px;
+  height: 382.84px;
+  border-radius: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width:1200px) {
+  .medalRequirements{
+    width: 500px;
+  }
+  .medalBox{
+    width: 500px;
+  }
+  .medalPromoVid{
+    width: 420px;
+    height: 420px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width:600px) {
+  .medalRequirements{
+    width: 100%;
+    margin-left: 3px;
+    margin-right: 3px;
+    padding: 5px;
+
+  }
+  .medalBox{
+    width: 95%;
+  }
+  .medalPromoVid{
+    width: 220px;
+    height: 220px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .text p{

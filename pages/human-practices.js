@@ -237,6 +237,7 @@ export default function HPPage() {
                             <p>
                                 &nbsp;&nbsp;&nbsp;&nbsp;Since the 4th graders loved the activity and team so much, we plan to host another session with them to recount what we will accomplish and experience at the Giant Jamboree in Paris.
                             </p>
+                            <div class="yBox60"/>
             </div>
         </div>
     </div>
