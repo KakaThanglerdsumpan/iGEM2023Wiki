@@ -1,7 +1,8 @@
+
 @font-face {
   font-family: "LGC light";
   src: url("../assets/louis-george-cafe-light.ttf");
-}
+} 
 
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700&display=swap");
 * {
@@ -36,10 +37,10 @@ nav {
   width: 100%;
   padding: 10px 24px;
   justify-content: space-between;
-  background-color: #f07b3e;
+  background-color: #F07B3E;
   /* rgb(228, 130, 11); */
-  box-shadow: 5px 0px 5px grey;
-  color: whitesmoke;
+  box-shadow:  5px 0px 5px grey;
+  color: whitesmoke; 
 }
 
 p {
@@ -48,7 +49,7 @@ p {
   /* color: grey; */
 }
 
-.dropdownItem {
+.dropdownItem{
   font-size: 14px;
   font-weight: 200;
   position: relative;
@@ -56,13 +57,13 @@ p {
   color: white;
   z-index: 1;
 }
-nav.nav {
+nav.nav{
   z-index: 10;
   height: 60px;
 }
 
 /* dropdwon */
-.wide {
+.wide{
   display: none;
 }
 /* Style The Dropdown Button */
@@ -89,7 +90,7 @@ nav.nav {
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
   border-bottom: 5px solid rgb(228, 130, 11);
 }
@@ -105,7 +106,7 @@ nav.nav {
 
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
-  color: #f0972b;
+  color:  #f0972b;
 }
 
 /* Show the dropdown menu on hover */
@@ -118,11 +119,11 @@ nav.nav {
   background-color: orange;
 }
 
-.displayNone {
+.displayNone{
   display: none;
 }
 
-.ddItem {
+.ddItem{
   border-radius: 10px !important;
   line-height: 18px;
 }
@@ -138,11 +139,13 @@ nav.nav {
   max-height: 24px;
 }
 
+
 .nav__menu-bar div {
   width: 40px;
   height: 4px;
   background-color: white;
   border-radius: 1px;
+ 
 }
 .nav__menu-list {
   z-index: 2;
@@ -156,7 +159,7 @@ nav.nav {
   padding: 12px 16px;
   transition: all 0.2s;
   min-height: calc(100vh - 60px);
-  background-color: #f07b3e;
+  background-color:#F07b3e;
 }
 .nav__menu-list.active {
   right: 0;
@@ -167,22 +170,27 @@ nav.nav {
   position: relative;
   transition: all 0.2s;
   color: white;
+  
 }
 
-.logoLink {
+
+.logoLink{
   cursor: pointer;
   margin: auto;
+
 }
 
+
+
 @media screen and (min-width: 900px) {
-  .dropdown {
+  .dropdown{
     display: inline !important;
   }
-
+  
   nav {
     padding: 0px 20px;
   }
-  .logo {
+  .logo{
     position: relative;
     left: 0%;
     top: 18%;
@@ -196,7 +204,7 @@ nav.nav {
     margin: auto;
     width: 1000px;
   }
-
+ 
   .nav__menu-bar {
     display: none;
   }
@@ -240,6 +248,7 @@ nav.nav {
     width: 100%;
   } */
 }
+
 
 /*
 .titleScreen {
@@ -1040,141 +1049,145 @@ nav.nav {
 } */
 
 /* members page */
-.memberImg {
+.memberImg{
   width: 400px;
   height: 400px;
 }
-.memberName {
+.memberName{
   padding-top: 50px;
 }
-.leaderPositions {
+.leaderPositions{
   color: white;
-  background-color: #4aa198;
+  background-color: #4AA198;
   padding: 10px;
   width: fit-content;
   border-radius: 5px;
 }
-.memberPositions {
+.memberPositions{
   color: white;
-  background-color: #fbbb0b;
+  background-color: #FBBB0B;
   padding: 10px;
   width: fit-content;
   border-radius: 5px;
 }
-.advisorPositions {
+.advisorPositions{
   color: white;
-  background-color: #db7952;
+  background-color:#DB7952;
   padding: 10px;
   width: fit-content;
   border-radius: 5px;
 }
-.memberText {
+.memberText{
   width: 600px;
   height: 220px;
   overflow-y: scroll;
 }
-.membersHeading {
+.membersHeading{
   text-align: center;
   padding-top: 40px;
   padding-bottom: 60px;
   font-size: 46px;
 }
 
-@media screen and (max-width: 1100px) {
-  .memberName {
+@media screen and (max-width: 1100px){
+  .memberName{
     width: 400px;
   }
-  .memberText {
+  .memberText{
     width: 400px;
     height: 180px;
   }
-  .memberPositions {
+  .memberPositions{
     max-width: 400px;
   }
-  .leaderPositions {
+  .leaderPositions{
     max-width: 400px;
   }
-  .advisorPositions {
+  .advisorPositions{
     max-width: 400px;
   }
 }
-@media screen and (max-width: 900px) {
-  .membersWide {
+@media screen and (max-width: 900px){
+  .membersWide{
     display: none;
   }
-  .memberImg {
+  .memberImg{
     width: 250px;
     height: 250px;
     align-self: center;
   }
-  .membersNarrow {
+  .membersNarrow{
     flex-direction: column;
     margin-left: 20px;
     margin-right: 20px;
     text-align: center;
   }
-  .advisorPositions {
+  .advisorPositions{
     text-align: center;
     align-self: center;
   }
+
+  
+  
 }
-@media screen and (min-width: 901px) {
-  .membersNarrow {
+@media screen and (min-width: 901px){
+  .membersNarrow{
     display: none;
     justify-items: center;
   }
 }
 
+
 /* page set ups */
 
-.sidePadded50 {
+.sidePadded50{
   padding-left: 50px;
   padding-right: 50px;
 }
 
-.leftRow {
+.leftRow{
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: start;
 }
-.rightRow {
+.rightRow{
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: end;
 }
 
-.leftCol {
+.leftCol{
   height: 100%;
   display: flex;
   flex-direction: column;
   align-items: start;
 }
-.rightCol {
+.rightCol{
   height: 100%;
   display: flex;
   flex-direction: column;
   align-items: end;
   text-align: right;
 }
-.column {
+.column{
   display: flex;
   flex-direction: column;
 }
-.row {
+.row{
   display: flex;
   flex-direction: row;
 }
-.yBox60 {
+.yBox60{
   height: 60px;
 }
-.yBox100 {
+.yBox100{
   height: 100px;
 }
 
 /* dropdwon */
-.wide {
+.wide{
   display: none;
 }
 /* Style The Dropdown Button */
@@ -1200,43 +1213,46 @@ nav.nav {
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
   border-bottom: 5px solid rgb(228, 130, 11);
 }
 
+
 @media screen and (max-width: 899px) {
-  .dropdown {
+  .dropdown{
     width: 100%;
   }
   .dropdown-content a:hover {
-    background-color: transparent;
+    background-color: transparent
   }
 
-  .dropdown-content {
+  .dropdown-content{
     width: 100%;
     position: relative;
     display: block;
     border-bottom: 0px solid rgb(228, 130, 11);
   }
-  .nav__menu-list {
+  .nav__menu-list{
     height: 80%;
     overflow-y: scroll;
   }
 
-  .dropbtn {
+  .dropbtn{
     cursor: pointer;
     width: 100%;
     text-align: left;
   }
-  .button {
+  .button{
     width: 100%;
   }
-  .nav__link {
+  .nav__link{
     width: 100%;
     text-align: left;
   }
+  
 }
+
 
 /* Links inside the dropdown */
 .dropdown-content a {
@@ -1247,9 +1263,7 @@ nav.nav {
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {
-  background-color: #f1f1f1;
-}
+.dropdown-content a:hover {background-color: #f1f1f1}
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
@@ -1261,11 +1275,15 @@ nav.nav {
   background-color: orange;
 }
 
-.displayNone {
+.displayNone{
   display: none;
 }
 
+
+
+
 .sidebar p:hover {
+  
   font-size: 25px;
   color: white;
   padding: 10px;
@@ -1276,37 +1294,39 @@ nav.nav {
   border-radius: 0px;
   margin-top: 0px;
   margin-left: 25px;
-  cursor: pointer;
-  font-weight: bold;
+  cursor: pointer; 
+  font-weight: bold; 
 }
 
-* {
+ 
+
+ *{
   scroll-margin-top: 80px; /* whatever is a nice number that gets you past the header */
 }
 
 /* contentsBar */
-.contentsBar {
+.contentsBar{
   height: inherit;
   width: 300px;
   padding-left: 20px;
   padding-top: 200px;
-  background-color: #fdc550;
+  background-color:#FDC550;
 
   /* box-shadow: 5px 1px 0px rgba(1,1,1,0.2); */
 }
-@media screen and (max-width: 700px) {
-  .indent {
+@media  screen and (max-width: 700px) {
+  .indent{
     margin-left: 20px;
   }
-  .contentsBar {
+  .contentsBar{
     display: none;
-  }
-  .text {
+  }  
+  .text{
     padding-left: 18px !important;
     padding-right: 18px !important;
   }
 }
-.contentsButton {
+.contentsButton{
   background: transparent;
   border: 0;
   font-size: 20px;
@@ -1315,103 +1335,113 @@ nav.nav {
   margin-bottom: 20px;
   width: 260px;
 }
-.contentsButton:hover {
+.contentsButton:hover{
   background-color: #f37b3e;
   color: white;
   font-weight: bold;
   padding: 6px;
 }
-.contentsBarButtons {
+.contentsBarButtons{
   position: sticky;
-  top: 200px;
-  z-index: 0;
+  top:200px;
+  z-index: 0
 }
-.text {
+.text{
   max-width: 760px;
   margin: auto;
   padding-left: 40px;
   padding-right: 40px;
 }
 
-.text p {
+.text p{
   width: 100%;
+ 
 
   text-align: justify;
 }
 
-.text.indent p {
+.text.indent p{
   width: calc(100%-60px);
   word-wrap: break-word;
 }
 
-.text h1 {
+
+
+.text h1{
   margin-top: 50px;
   margin-bottom: 10px;
   text-align: left;
 }
-.text h2,
-h3 {
+.text h2,h3{
   margin-top: 20px;
   margin-bottom: 10px;
   text-align: left;
 }
 
-.text h5 {
+.text h5{
   font-weight: lighter;
   text-align: center;
   margin-bottom: 40px;
 }
 
-.attForm {
+.attForm{
   justify-content: center;
   margin-left: 4%;
   width: 92%;
   border: 0;
   height: 1800vh;
 }
-.ellipse {
+.ellipse{
   z-index: -1;
-  background: linear-gradient(to right, #fdc550, #f37b3e);
+  background: linear-gradient(to right, #FDC550, #f37b3e);
   width: 100%;
   height: 30vh;
+
 }
 
-.indent {
+.indent{
   margin-left: 60px;
   max-width: 700px;
 }
 
-.figure {
+.figure{
   width: 100%;
   margin-top: 40px;
   margin-bottom: 10px;
+
 }
 
-.figureTooBig {
+.figureTooBig{
   width: 60%;
   margin-top: 10px;
   margin-bottom: 10px;
   margin-left: 20%;
+
 }
 
-.references li {
+.references li{
   color: grey;
   margin-bottom: 15px;
   margin-left: 20px;
 }
 
-.pdf {
+.pdf{
   width: 760px;
   height: 1000px;
 }
 
-.footer {
-  position: absolute;
+
+.footer{
+  position: absolute; 
   z-index: -2;
-  background: linear-gradient(to right, #fdc550, #f37b3e);
+  background: linear-gradient(to right, #FDC550, #f37b3e);
   width: 100%;
   height: 30vh;
 }
+
+
+
+
 
 /* section {
   height: 100vh;
@@ -1588,7 +1618,7 @@ section {
 
 @media screen and (max-width: 600px) {
   .grid1 {
-    grid-template-columns: repeat(1, 1fr);
+      grid-template-columns: repeat(1, 1fr);
   }
 }
 
@@ -1604,7 +1634,7 @@ section {
 }
 @media screen and (max-width: 600px) {
   .grid-container {
-    grid-template-columns: repeat(1, 1fr);
+      grid-template-columns: repeat(1, 1fr);
   }
 }
 
@@ -1671,29 +1701,29 @@ page 4
 
 @media screen and (max-width: 768px) {
   .title {
-    font-size: 24px;
+      font-size: 24px;
   }
 
   .subtitle {
-    font-size: 36px;
+      font-size: 36px;
   }
 
   .description {
-    font-size: 18px;
+      font-size: 18px;
   }
 }
 
 @media screen and (max-width: 480px) {
   .title {
-    font-size: 20px;
+      font-size: 20px;
   }
 
   .subtitle {
-    font-size: 28px;
+      font-size: 28px;
   }
 
   .description {
-    font-size: 16px;
+      font-size: 16px;
   }
 }
 
@@ -1702,3 +1732,4 @@ page 4
   max-width: 100%;
   height: auto;
 }
+
